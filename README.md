@@ -39,7 +39,7 @@ Les méthodes d’intégrations étudiées dans ce projet :
 
 #### Voici un démo sur la réalisation de l’interface graphique :
 
-![](gif1.gif)
+![](gif2.gif)
 
 ### Utilité:
 L’intégration est un des problémes les plus importants que l’on rencontre en analyse. En effet, on rencontre souvent des intégrales dont le calcul par des méthodes analytiques est trés compliqué ou même impossible, car il n’existe pas d’expression analytique d’une primitive de la fonctionà intégrer.
