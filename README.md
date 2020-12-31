@@ -1,4 +1,4 @@
-# Projet_AnalyseNumerique
+# <center> Projet_AnalyseNumerique</center>
 ## Intégration Numérique :
 ## Table des matières :
 
@@ -9,6 +9,14 @@
   * [Documentation de la classe Rectangle](#sub-heading-1)
   * [Documentation de la classe mclass](#sub-heading-1)
   * [Méthodes de la classe mclass:](#sub-heading-1)
+- [Méthodes d'intégration Numèriques](#heading-1)
+  * [Méthode de Rectangle](#sub-heading-1)
+  * [Méthode des Trapézes](#sub-heading-1)
+  * [Méthode des Points Milieux](#sub-heading-1)
+   * [Méthode de Simpson](#sub-heading-1)
+
+
+
 
      
 
@@ -73,9 +81,40 @@ L'interface du projet contient trois cadres (frames) pour la composition de la f
 * Méthode plot : pour l'affichage d'une seule graphe.En effet,le Combobox inséré dans l'interface vous permet de choisir la méthode d'intégration désiré , il suffit de choisir la méthode , le graphe va être affiché , ainsi la valeur approchée de l'intégral et l'erreur.
 * Méthode plotall: C'est le même principe de la méthode plot sauf celle-ci permet l'affichage des quatre ghraphes de chaque méthode simultanément ainsi leurs valeurs approchées  et leurs erreurs.
 
-## Execution :
-Le fichier peut également être exécuté sous forme de script :
+## Méthodes d'intégration Numèriques :
+### 1. Méthode de Rectangle
+C'est l'application la plus simple de la définition de l'intégrale de Riemann.On découpe l'intervalle [a ; b] en n intervalles équivalents de largeur h.On écrit  : ![alt text](images/Rect1.png)
+Avec  h=(b-a)/n
+* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des rectangles hachurés en vert 
+![alt text](images/Rect3.png)
 
+### 2. Méthode des Trapézes:
+La méthode du trapèze est obtenue en remplaçant f par son polynôme d'interpolation de Lagrange de degré 1 aux nœuds xo = a et x1 = b, c'est-à dire 1(f) = (f(a) + f(b))/2.
+On réalise pour chaque intervalle de largeur h une approximation linéaire de la fonction à intégrer.On a alors : ![alt text](images/Trap1.png) 
+Avec  h=(b-a)/n
+* Géométriquement, cela signifie qu'on approche l'intégrale de f par l'aire des Trapèzes en rouge. 
+![alt text](images/Trap3.png)
+
+### 3. Méthode des Points Milieux : 
+
+En analyse numérique, la méthode du point médian est une méthode permettant de réaliser le calcul numérique d'une intégrale.
+Cette méthode consiste à choisir le point milieu de chacun des sous-intervalles : ![alt text](images/ptMilieu.PNG) 
+Et à faire l'approximation : 
+![alt text](images/ptMilieu1.PNG) Ce qui conduit à la formule :
+![alt text](images/ptMilieu2.PNG)
+* Cette méthode qui, pour des raisons évidentes s'appelle la méthode du point milieu, est illustrée en bas :
+![alt text](images/ptMilieu3.PNG)
+
+### 4. Méthode de Simpson:
+Elle revient à approcher localement la fonction à intégrer sur des intervalles adjacents par une parabole.
+La formule de Simpson peut être obtenue en remplaçant f sur [a,b] par son polynôme d'interpolation composite de degré 2 aux nœuds xo = a, x-1 = (a + b)/2 et x2= b 
+On écrit la formule :
+
+![alt text](images/simp1.png)
+
+* Cette méthode est illustrée en bas :
+
+![alt text](images/simp2.jpg)
 
 
 
