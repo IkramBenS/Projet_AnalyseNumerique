@@ -2,13 +2,13 @@
 ## Intégration Numérique :
 ## Table des matières :
 
-* À propos du projet:
-     * Utilité :
-     * Outil de développement
-* Documentation sur IntegrationProject.py:
-     * Documentation de la classe Rectangle
-     * Documentation de la classe mclass
-     * Méthodes de la classe mclass
+- [À propos du projet:](#heading)
+  * [Utilité](#sub-heading)
+  * [Outil de développement](#sub-heading)
+- [Documentation sur IntegrationProject.py:](#heading-1)
+  * [Documentation de la classe Rectangle](#sub-heading-1)
+  * [Documentation de la classe mclass](#sub-heading-1)
+  * [Méthodes de la classe mclass:](#sub-heading-1)
 
      
 
