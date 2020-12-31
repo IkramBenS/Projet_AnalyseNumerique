@@ -8,7 +8,7 @@
 * Documentation sur IntegrationProject.py:
      * Documentation de la classe Rectangle
      * Documentation de la classe mclass
-     * Méthodes de la classe mclass:
+     * Méthodes de la classe mclass
 
      
 
